@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Website</title>
+   <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="intro">
+    <!-- Header Section -->
+    <header class="head">
+        <div class="topnav" id="myTopnav">
+            <a href="#">Home</a>
+            <a href="#">Order</a>
+            <a href="#">Food</a>
+            <a href="#">Restaurant</a>
+            <a href="#">Testimonials</a>
+            <a href="#">Contact Us</a>
+            <a class="menu-icon" href="#">&#9776;</a>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+          </div>
+    </header>
+
+    <!-- Second Section -->
+    <div class="main-section">
+        <div class="right-section">
+            <h2>LOREM IPSUM </h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus id est vitae dolor rhoncus tristique. Maecenas metus quam, rhoncus euismod lorem in, sollicitudin viverra eros. Donec dictum luctus quam ut tristique. Curabitur nec faucibus purus. Quisque congue sem nec justo mollis, in tincidunt erat pretium. Sed pulvinar, massa ac porta viverra.
+            </p>
+            <button>Click Me</button>
+        </div>
+        <div class="left-section">
+            <img class="robin-img" src="HTML CSS Assignment/robin.jpg" alt="Left Section Image">
+        </div>
+       
+    </div>
+
+    <!-- Third Section -->
+    <div class="third-section">
+        <div class="left-part">
+            <div class="right-part">
+                <img class="mister-img" src="HTML CSS Assignment/rachel.jpg" alt="Image 1">
+                <img class="rechel-img" src="HTML CSS Assignment/mister.jpg" alt="Image 2">
+                <img class="eva-bronzini-img" src="HTML CSS Assignment/eva-bronzini.jpg" alt="Image 3">
+            </div>
+            <div class="right-part-content">
+                <h3 class="h3-sec-3">LOREM IPSUM</h3>
+                <h1 class="h1-sec-3">LOREM IPSUM SET ADEMIR</h1>
+                <button> Click<img class="arr-r" src="HTML CSS Assignment/icons8-arrow-30.png" width="24px" height="12px"></button>
+            </div>
+        </div>
+    </div>
+</div>
+<script>
+   function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+</script>
+</body>
+</html>
